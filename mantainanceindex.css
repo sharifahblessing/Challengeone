@@ -1,0 +1,47 @@
+.container{
+background: url(images1.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+opacity: 0.5;
+margin-left: 50px;
+
+} 
+.header{
+    text-align: center;
+    color: rgb(50, 70, 134);
+}   
+h1{
+    color: rgb(50, 70, 134);
+    font-size: 3em;
+    font-style: italic;
+    align-content: center;
+
+    
+}
+.pageinfo{
+    font-size: 2.0em;
+}
+#signupinfo{
+    font-style: italic;
+}
+#signininfo{
+    font-style: italic;
+}
+.feild{
+    align-content: center;
+    color:rgb(50, 70, 134);
+    font-weight: bold;
+}
+.center.align{
+    text-align: center;
+}
+.signin{
+    justify-content: center;
+}
+li{
+    display: inline-block;
+    border-color: rgb(9, 91, 94); padding: 20px;
+    border: 2px solid rgb(9, 91, 94);
+    
+}
+
