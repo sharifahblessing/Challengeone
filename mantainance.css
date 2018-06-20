@@ -4,6 +4,7 @@ background-repeat: no-repeat;
 background-size: 100% 100%;
 opacity: 0.5;
 margin-left: 50px;
+width: 900px;
 
 } 
 .header{
@@ -43,6 +44,26 @@ li{
     border-color: rgb(9, 91, 94); padding: 20px;
     border: 2px solid rgb(9, 91, 94);
     
+}
+
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: rgb(114, 78, 182);}
+ul li:hover ul {display: block;}
+ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+}
+a:hover {
+    background: rgb(9, 91, 94);
+       width: 200px;
+       
+       
 }
 
 

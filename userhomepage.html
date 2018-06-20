@@ -3,7 +3,7 @@
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Comaptible" content="IE=edge"/>
         <meta  name="viweport" content="width=device-width,initial-scale=1"/>
-        <link rel="stylesheet" type="text/css" media="screen" href="mantainanceindex.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="mantainance.css"/>
         <tittle>user home page</tittle>
     </head>
     <body>
@@ -13,23 +13,42 @@
                 <br>fixes and also connects you to trust worthy people who fix stuff.
                 <br>Check out the items you can request for repair or mantainance  @MantainanceTracker 
             </p>
-        
+        <form for="requests">
         <div class="requests">
-            <ul for="itemsthatcanberequestedforrepair">
+            <ul for="departmentsthatcanberequestedforrepair">
                 <li>ELECTRONICS</li>
                 <li>AUTOMOBILE</li>
                 <li>OFFICE APPLIANCE</li>
-                <li>GADGETS/li>
+                <li>GADGETS</li>
             </ul>
-            <p><strong>Click on what you what to  create request.  </strong></p>
-            <p><strong>Confirm in the check box below before you submit your request.<br>Note the requests should be matching with the ones made above  </strong></p>
+            <p><strong> It will fall in the departments above .</strong></p>
+            <p><strong> Check box below before you submit your request.<br>Note the requests to be forwared a description should be filled in the text box below  </strong></p>
             
-                <input type="checkbox" name="Items to request for repair or mantainance" value="items to reques to repair or  mantainance" id="repair"><label for="Electronics" >ELECTRONICS</label><br>  
-                <input type="checkbox" name="Items to request for repair or mantainance" value="items to reques to repair or  mantainance" id="repair"><label for="AUTOMOBILE" >AUTOMIBLE</label><br>
-                <input type="checkbox" name="Items to request for repair or mantainance" value="items to reques to repair or  mantainance" id="repair"><label for="officeappliance" >OFFICE APPLIANCE</label><br>
-                <input type="checkbox" name="Items to request for repair or mantainance" value="items to reques to repair or  mantainance" id="repair"><label for="gadgets" >GADGETS</label> <br>        
+                <input type="radio" name="Items to request for repair or mantainance" value="items to reques to repair or  mantainance" id="repair"><label for="Electronics" >ELECTRONICS</label><br>  
+                <input type="radio" name="Items to request for repair or mantainance" value="items to reques to repair or  mantainance" id="repair"><label for="AUTOMOBILE" >AUTOMIBLE</label><br>
+                <input type="radio" name="Items to request for repair or mantainance" value="items to reques to repair or  mantainance" id="repair"><label for="officeappliance" >OFFICE APPLIANCE</label><br>
+                <input type="radio" name="Items to request for repair or mantainance" value="items to reques to repair or  mantainance" id="repair"><label for="gadgets" >GADGETS</label> <br>        
         </div>
+        <div class ="requesttittle">
+                <p>
+                        <label><strong> Request Tittle</strong></label>
+                        <textarea>  forexample Automobile failure </textarea>
+                </p>
         </div>
+        <div class ="description">
+                <p>
+                        <label><strong> Description </strong></label>
+                        <textarea>  put  the description here </textarea>
+                      </p>
+
+        </div>
+        </form>
+        
+<button for ="submit">CREATE REQUEST</button> <button for ="submit">CANCEL</button> <button for ="submit">VIEW REQUESTS</button>
+
+
+        </div>
+
     </body>
 
 </html>
