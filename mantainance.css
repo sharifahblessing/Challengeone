@@ -1,21 +1,11 @@
-.container{
-background-repeat: no-repeat;
-background-size: 100% 100%;
-margin-left: 50px;
-width: 900px;
-background-image:url("download.jpeg") ;
 
-} 
 h1{
     color:whitesmoke;
     font-size: 3em;
     font-style: italic;
     text-align: center;
     background-color:rgb(100, 186, 56);
-    
-
-    
-}
+   }
 .pageinfo{
     font-size: 2.0em;
 }
@@ -25,11 +15,7 @@ h1{
 #signininfo{
     font-style: italic;
 }
-.feild{
-    align-content: center;
-    color:rgb(50, 70, 134);
-    font-weight: bold;
-}
+
 .center.align{
     text-align: center;
 }
@@ -38,8 +24,9 @@ h1{
 }
 li{
     display: inline-block;
-    border-color: rgb(100, 186, 56); padding: 20px;
+    border-color: rgb(100, 186, 56); padding: 10px;
     border: 2px solid rgb(100, 186, 56);
+    border-radius: 10px;
     
 }
 
@@ -59,12 +46,14 @@ ul li ul {
 a:hover {
     background: rgb(100, 186, 56);
        width: 200px;
+       background: white;
        
 }
 .topnav
 {
     background-color:whitesmoke;
     overflow: hidden;
+    padding-top:0px;
 }
 
 
@@ -91,6 +80,7 @@ a:hover {
     form.signup{
         float:right;
         width:40%;
+        height: 350px;
        
     }
     #signup{
@@ -116,7 +106,7 @@ a:hover {
 }
 .signup ul li{
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     min-height: 35px;
 }
 .signup ul li  .field-style{
@@ -157,10 +147,12 @@ a:hover {
     display: inline-block;
     cursor: pointer;
     color: #FFFFFF;
-    padding: 8px 18px;
+    padding: 5px 10px;
     text-decoration: none;
-    font: 12px Arial, Helvetica, sans-serif;
-}
+    font: 12px Arial, sans-serif;
+    border-radius: 10px;
+
+    }
 .signup ul li input[type="button"]:hover, 
 .signup ul li input[type="submit"]:hover {
     background: linear-gradient(to bottom, rgb(100,183,86) 5%, rgb(100,183,86) 100%);
@@ -189,5 +181,39 @@ body {  margin-left: 100px;
      width:50%;
      height:350px;
      
+ }
+ #requestform{
+    background: #FAFAFA;
+    padding: 30px;
+    margin: 0px auto;
+    box-shadow: 1px 1px 25px rgb(100,183,86);
+    border-radius: 20px;
+    border: 6px solid rgb(100,183,86);
+    float: left;
+    padding-top: 0px;
+ }
+ #act{
+     padding-top:20px;
+     padding-bottom: 0px; 
+     border-radius: 50px;
+ }
+ #admin{
+     float:right;
+ }
+ .landing
+ {
+     padding-top: 0px;
+     
+ }
+ #create{
+     font-style: italic;
+    
+ }
+ #checkrequest{
+     float:right;
+ }
+ button{
+     color:whitesmoke;
+     background-color: rgb(100, 186, 56);
  }
  

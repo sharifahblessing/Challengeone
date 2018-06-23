@@ -7,14 +7,20 @@
         <tittle>user home page</tittle>
     </head>
     <body>
-        <div class="content">
-        <div class="container">
-            <h1 >Mantainance Tracker </h1>
+        <div class="menu">
+                    <h1 >Mantainance Tracker </h1>
+                    <div class="landing">
+                            <div class="topnav">
+                                <ul>
+                               <li> <a class="active" href="Aboutus.html">About Us</a></li>
+                                <li><a href="index.html">Logout</a></li>
+                            </ul>
+                            </div>
             <p>Mantainance Tracker helps you  keep up with repairs
                 <br>fixes and also connects you to trust worthy people who fix stuff.
                 <br>Check out the items you can request for repair or mantainance  @MantainanceTracker 
             </p>
-        <form for="requests">
+        
         <div class="requests">
             <ul for="departmentsthatcanberequestedforrepair">
                 <li>ELECTRONICS</li>
@@ -23,31 +29,29 @@
                 <li>GADGETS</li>
             </ul>
             <p><strong> It will fall in the departments above .</strong></p>
-            <p><strong> Check box below before you submit your request.<br>Note the requests to be forwared a description should be filled in the text box below  </strong></p>
+            <p><strong> Check box below before you submit your request.<br>Note the requests to be forwared ,a description should be filled in the text box below  </strong></p>
             
-                <input type="radio" name="Items to request for repair or mantainance" value="items to reques to repair or  mantainance" id="repair"><label for="Electronics" >ELECTRONICS</label><br>  
-                <input type="radio" name="Items to request for repair or mantainance" value="items to reques to repair or  mantainance" id="repair"><label for="AUTOMOBILE" >AUTOMIBLE</label><br>
-                <input type="radio" name="Items to request for repair or mantainance" value="items to reques to repair or  mantainance" id="repair"><label for="officeappliance" >OFFICE APPLIANCE</label><br>
-                <input type="radio" name="Items to request for repair or mantainance" value="items to reques to repair or  mantainance" id="repair"><label for="gadgets" >GADGETS</label> <br>        
+                <input type="radio" name="Items to request for repair or mantainance" value="items to reques to repair or  mantainance" id="Electronics"><label for="Electronics" >ELECTRONICS</label><br>  
+                <input type="radio" name="Items to request for repair or mantainance" value="items to reques to repair or  mantainance" id="Automobile"><label for="AUTOMOBILE" >AUTOMIBLE</label><br>
+                <input type="radio" name="Items to request for repair or mantainance" value="items to reques to repair or  mantainance" id="officeapliance"><label for="officeappliance" >OFFICE APPLIANCE</label><br>
+                <input type="radio" name="Items to request for repair or mantainance" value="items to reques to repair or  mantainance" id="gadgets"><label for="gadgets" >GADGETS</label> <br>        
         </div>
-        <div class ="requesttittle">
-                <p>
-                        <label><strong> Request Tittle</strong></label>
-                        <textarea>  forexample Automobile failure </textarea>
-                </p>
-        </div>
-        <div class ="description">
-                <p>
-                        <label><strong> Description </strong></label>
-                        <textarea>  put  the description here </textarea>
-                      </p>
-
-        </div>
-        </form>
+                <form id="requestform">
+                <div class ="requesttittle">
+                        <p>
+                                <label><strong> Request Tittle</strong></label>
+                                <textarea>  forexample Automobile failure </textarea>
+                        </p>
+                </div>
+                <div class ="description">
+                        <p>
+                                <label><strong> Description </strong></label>
+                                <textarea>  put  the description here </textarea>
+                              </p>
         
-<button for ="submit">CREATE REQUEST</button> <button for ="submit">CANCEL</button> <button for ="submit">VIEW REQUESTS</button>
-
-
+                </div>
+                <button for ="submit">CREATE REQUEST</button> <button for ="cancel">CANCEL</button> <button for ="view request">VIEW REQUESTS</button>
+                </form>
         </div>
         </div>
 
